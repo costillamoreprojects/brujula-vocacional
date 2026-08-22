@@ -1513,7 +1513,7 @@ export default function BrujulaVocacional() {
               </>
             )}
 
-            <CompassChat key={chosenCareer ? chosenCareer.id : "general"} top1={top1} top2={top2} ranking={ranking} matched={matched} chosenCareer={chosenCareer} />
+
 
             <div className="divider-cta">
               <button className="btn-secondary" onClick={() => setExploring(true)}>Ver todas las carreras</button>
